@@ -8,10 +8,10 @@ Edit:
   NAME-IMAGE
   NAME-PROJECT
 
-<li><a href="LINK-PROJECT" target="_blank" class="thumbnail"
-                                    data-lightbox-ignore="1"><span class="frame"><img
-                                            src="assets/images/gallery01/NAME-IMAGE.png"
-                                            alt="NAME-PROJECT" /></span></a></li>
+### <li><a href="LINK-PROJECT" target="_blank" class="thumbnail"
+###                                    data-lightbox-ignore="1"><span class="frame"><img
+###                                            src="assets/images/gallery01/NAME-IMAGE.png"
+###                                            alt="NAME-PROJECT" /></span></a></li>
   
 ## FUTURE PROJECT ESPECIFICATION
   
