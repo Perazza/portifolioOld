@@ -1471,7 +1471,7 @@ html,
     }
 
     .gallery.style1 ul li .frame {
-        border-radius: 0.625rem;
+        border-radius: 0.225rem;
         display: flex;
         flex-grow: 1;
         flex-shrink: 1;
@@ -1489,6 +1489,17 @@ html,
         max-height: 15.125rem;
         object-fit: cover;
         object-position: center;
+    }
+
+    .gallery.style1 ul li div {
+        display: block;
+        flex-grow: 1;
+        flex-shrink: 1;
+        height: auto;
+        max-height: 15.125rem;
+        object-fit: cover;
+        object-position: center;
+        background-color: rgba(255, 255, 255, 0.74)
     }
 
     .gallery.style1 ul li .thumbnail img {
