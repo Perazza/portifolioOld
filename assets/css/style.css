@@ -103,6 +103,7 @@ html,
 
     body {
         line-height: 1;
+        font-size: 85%;
     }
 
     ol,
@@ -714,6 +715,17 @@ html,
         margin-top: 2rem;
     }
 
+    .style6 {
+        text-align: center;
+        color: #7D7D7D;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 0.025rem;
+        width: calc(100% + 0.025rem);
+        font-size: 0.75em;
+        line-height: 1.75;
+        font-weight: 200;
+    }
+
     .container {
         position: relative;
     }
@@ -1080,7 +1092,7 @@ html,
         padding-left: calc(0.025rem + 1.8125rem);
         font-size: 1em;
         font-weight: 400;
-        border-radius: 2.5rem;
+        border-radius: 0.5rem;
         flex-direction: row-reverse;
         justify-content: flex-end;
         transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
@@ -1134,7 +1146,7 @@ html,
         padding-left: calc(0.05rem + 1.75rem);
         font-size: 1em;
         font-weight: 300;
-        border-radius: 2.5rem;
+        border-radius: 0.5rem;
         flex-direction: row-reverse;
         justify-content: flex-end;
         transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
@@ -1468,10 +1480,12 @@ html,
         flex-direction: column;
         flex-grow: 1;
         flex-shrink: 1;
+        max-width: 21.5rem
     }
 
     .gallery.style1 ul li .frame {
-        border-radius: 0.225rem;
+        border-top-left-radius: 0.1rem;
+        border-top-right-radius: 0.1rem;
         display: flex;
         flex-grow: 1;
         flex-shrink: 1;
@@ -1491,15 +1505,15 @@ html,
         object-position: center;
     }
 
-    .gallery.style1 ul li div {
+    .portfolio-text {
         display: block;
         flex-grow: 1;
         flex-shrink: 1;
         height: auto;
-        max-height: 15.125rem;
+        max-width: 100%;
         object-fit: cover;
         object-position: center;
-        background-color: rgba(255, 255, 255, 0.74)
+        background-color: #242424
     }
 
     .gallery.style1 ul li .thumbnail img {
